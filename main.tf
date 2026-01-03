@@ -35,7 +35,7 @@ resource "aws_cloudwatch_event_target" "this" {
 
 module "dlq" {
   count  = var.enable_dlq ? 1 : 0
-  source = "git::https://github.com/im5tu/opentofu-aws-sqs.git?ref=main"
+  source = "git::https://github.com/im5tu/opentofu-aws-sqs.git?ref=ce6739558c2324144583524879532e603c044dea"
 
   name        = "${var.name}-dlq"
   kms_key_arn = var.kms_key_arn
