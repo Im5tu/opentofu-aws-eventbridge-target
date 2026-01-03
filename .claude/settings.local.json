@@ -5,7 +5,9 @@
       "Bash(tofu validate:*)",
       "Bash(git add:*)",
       "Bash(git commit:*)",
-      "Bash(git push:*)"
+      "Bash(git push:*)",
+      "Bash(git rev-parse:*)",
+      "WebFetch(domain:api.github.com)"
     ]
   }
 }

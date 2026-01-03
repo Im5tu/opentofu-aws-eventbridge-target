@@ -6,7 +6,7 @@ This module creates an Amazon EventBridge rule and target, enabling event-driven
 
 ```hcl
 module "eventbridge_target" {
-  source = "git::https://github.com/im5tu/opentofu-aws-eventbridge-target.git?ref=<commit-sha>"
+  source = "git::https://github.com/im5tu/opentofu-aws-eventbridge-target.git?ref=b2016e4f000c318e5c730af9a9d2b90d03a23f5d"
 
   name               = "order-processor"
   event_bus_name     = "orders"
